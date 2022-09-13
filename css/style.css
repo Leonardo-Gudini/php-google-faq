@@ -4,16 +4,41 @@
     box-sizing: border-box;
 }
 
-header{
+body{
+    font-family: sans-serif;
+}
+
+.up{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.down{
+    border-bottom: 1px solid gray;
+}
+
+.down ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.down li{
+    margin: 0 20px;
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.down li:last-of-type{
+    color: #3367D6;
+    border-bottom: 2px solid #3367D6;
 }
 
 .left h1{
     font-size: 20px;
     color: gray;
-    font-family: sans-serif;
     text-decoration: underline;
 }
 
@@ -29,4 +54,5 @@ header{
 main{
     width: 1000px;
     margin: 0 auto;
+    padding: 40px;
 }

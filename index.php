@@ -28,7 +28,13 @@
         </div>
 
         <div class="down">
-            
+            <ul>
+                <li>Overview</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Technologies</li>
+                <li>FAQ</li>
+            </ul>
         </div>
     </header>
 
